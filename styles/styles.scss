@@ -1,0 +1,85 @@
+@import "fonts&colors";
+@import "navigation";
+@import "download-section";
+@import "footer";
+@import "dekcs-section";
+
+// Global Styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  font-size: 3.4rem;
+  color: rgb(36, 207, 50);
+}
+p {
+  font-size: 2.5rem;
+  color: rgb(36, 207, 50);
+}
+// * 2nd smallest
+@media screen and(max-width: 401px) {
+  html {
+    font-size: 50%;
+  }
+  .title-bar {
+    gap: 3rem;
+    padding: 3.2rem;
+    margin-left: 2rem;
+  }
+
+  .logo-gwent {
+    width: 15rem;
+    margin-bottom: 5rem;
+    margin-left: 19rem;
+    margin-top: 2rem;
+  }
+  .gwint-logo {
+    width: 50rem;
+  }
+  .download-text {
+    text-align: center;
+  }
+  .download-text1 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .download-play-on-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    font-family: Gwent;
+    margin: 0.5rem;
+  }
+  .steam-logo {
+    padding: 2rem;
+  }
+  .apple-logo {
+    padding: 2rem;
+  }
+  .play {
+    padding: 2rem;
+  }
+  .google-play-logo {
+    width: 19rem;
+    height: 9.5rem;
+    padding: 1rem;
+  }
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+  }
+  .devider {
+    width: 50rem;
+    margin: auto;
+    margin-top: -12rem;
+  }
+}

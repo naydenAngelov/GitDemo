@@ -1,0 +1,35 @@
+<section class="decks">
+  <h2>GWENT DECK LIBRARY</h2>
+  <button class="new-deck" type="button">Create A New Deck</button>
+  <div class="all-decks-wrapper">
+    <div class="nilfgaard-deck">
+      <div class="deck-information up-wrapper">
+        <div class="deck-up-votes">
+          <div class="number-hashtag">#</div>
+          <div class="arrows-up-and-down">
+            <img src="/icons/arrow-inactive.png" alt="dark-inactive-arrow" />
+            <img src="/icons/arrow-active.png" alt="light-active-arrow" />
+          </div>
+        </div>
+        <p>Author Of The Deck</p>
+        <p>Created</p>
+        <p>Crafting Cost</p>
+      </div>
+      <div class="down-wrapper">
+        <img src="/nilfgaardDeck/nilf-background.png" alt="" />
+        <p class="upvotest">2</p>
+        <a href="#">
+          <img
+            src="/icons/nilfgaard lider.png"
+            alt="double-cross-nilfgaard-leader"
+          />
+        </a>
+        <p class="name-of-the-leader-ability">DOUBLE CROSS</p>
+        <p class="names-of-the-creators"></p>
+        <div class="deck-up-to-date"></div>
+        <!-- TODO: Trqbva da napravq triugulniche koeto e zavurtqno kato romb i da e zeleno s jult border -->
+        <time datetime="2021-19-12 16:35">6 days ago</time>
+      </div>
+    </div>
+  </div>
+</section>

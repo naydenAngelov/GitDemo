@@ -1,0 +1,430 @@
+@font-face {
+  src: url(/fonts/hinted-GWENT-ExtraBold.ttf);
+  font-family: Gwent;
+}
+
+@font-face {
+  src: url(/fonts/Ahmet\Altun\\HalisGRRegular.otf);
+  font-family: Ahmed;
+}
+
+header {
+  background-image: url(/backgroundImages/nav-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10vh;
+}
+
+.actually-title-bar {
+  background: url(/backgroundImages/title-bar.png);
+  background-repeat: no-repeat;
+  background-size: 150rem;
+  background-position-x: center;
+  background-position-y: 2rem;
+}
+
+.background-line img {
+  width: 100%;
+  height: 2.5rem;
+  margin: -2rem;
+  padding: 4rem;
+}
+
+.title-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -6.5rem;
+  margin-left: 15rem;
+}
+
+.when-clicked li a:hover {
+  background: #0fd8957a;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.when-clicked li a:focus {
+  color: #bf9437;
+}
+
+.logo-gwent {
+  width: 15rem;
+  margin-left: 23rem;
+  margin-top: 1.5rem;
+}
+
+.title-bar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 3.5rem;
+  padding: 2rem;
+  margin: 8rem;
+  font-family: Gwent;
+}
+
+.download-gwent {
+  background: url(/backgroundImages/bg-footer-1920.jpg);
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.download-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 6rem;
+}
+
+.download-play-on-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-play-on-wrapper p {
+  color: #bf9437;
+  font-family: Ahmed;
+}
+
+.google-play-logo {
+  width: 15rem;
+  height: 6rem;
+}
+
+.steam-logo {
+  padding-left: 1rem;
+}
+
+.gwent-logo {
+  padding: 3rem;
+}
+
+.download-text p {
+  font-size: 3.5rem;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.77);
+  font-family: Gwent;
+  text-align: center;
+  color: #bf9437;
+}
+
+.download-text1 p {
+  font-size: 6rem;
+  font-family: Gwent;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.77);
+  color: #bf9437;
+  line-height: 10rem;
+}
+
+.golden-button {
+  border: 0.2rem solid #bf9437;
+  padding: 0.5rem;
+}
+
+.golden-button-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40rem;
+  height: 10rem;
+  padding: rem;
+  overflow: visible;
+  background: #bf9437;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 1rem;
+}
+
+.golden-button-inside a:focus {
+  color: white;
+}
+
+.button {
+  padding: 2.5rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  -webkit-text-stroke: 0.125rem;
+  -webkit-text-fill-color: #bf9437;
+  font-family: Ahmed;
+}
+
+.button:hover {
+  background: #ebbb5493;
+  width: 100%;
+  border-radius: 1rem;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.download-p {
+  font-family: Ahmed;
+  color: #bf9437;
+  padding: 5rem;
+}
+
+footer {
+  min-height: 100vh;
+  background: url(/backgroundImages/footer-image.jpg);
+}
+
+.gold-line {
+  background: url(/backgroundImages/line-footer-gold.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header3 {
+  color: #bf9437;
+  font-family: Gwent;
+  font-size: 3rem;
+  text-align: center;
+  margin: 10rem;
+}
+
+.footer-icons {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15rem;
+}
+
+.box {
+  border: 0.3rem solid #f1bb46;
+  padding: 2rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.smaller-box {
+  border: 1.5rem solid #a58030af;
+  margin: -2rem;
+}
+
+.box a img {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.youtube-logo {
+  margin: 1.5rem;
+}
+
+.footer-icons a img {
+  height: 6rem;
+}
+
+.devider {
+  background: url(/backgroundImages/divider-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150rem;
+  margin-top: -8rem;
+  padding: 3rem;
+}
+
+#copy-write-text {
+  padding: 2rem;
+  text-align: center;
+  color: #bf9437;
+  font-size: 1.8rem;
+}
+
+.cd-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5rem;
+}
+
+.gog {
+  width: 10rem;
+}
+
+.cd-red {
+  width: 25rem;
+  margin-top: -3rem;
+  padding-right: 3rem;
+}
+
+.copy-write-text1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #bf9437;
+  padding: 0rem;
+}
+
+.deck-border {
+  background: url(/backgroundImages/frame-fa00d6ac.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.decks {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 3.4rem;
+  color: #24cf32;
+}
+
+p {
+  font-size: 2.5rem;
+  color: #24cf32;
+}
+
+@media screen and (max-width: 401px) {
+  html {
+    font-size: 50%;
+  }
+  .title-bar {
+    gap: 3rem;
+    padding: 3.2rem;
+    margin-left: 2rem;
+  }
+  .logo-gwent {
+    width: 15rem;
+    margin-bottom: 5rem;
+    margin-left: 19rem;
+    margin-top: 2rem;
+  }
+  .gwint-logo {
+    width: 50rem;
+  }
+  .download-text {
+    text-align: center;
+  }
+  .download-text1 {
+    text-align: center;
+    padding: 1rem;
+  }
+  .download-play-on-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .button {
+    font-family: Gwent;
+    margin: 0.5rem;
+  }
+  .steam-logo {
+    padding: 2rem;
+  }
+  .apple-logo {
+    padding: 2rem;
+  }
+  .play {
+    padding: 2rem;
+  }
+  .google-play-logo {
+    width: 19rem;
+    height: 9.5rem;
+    padding: 1rem;
+  }
+  .footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 10rem;
+  }
+  .devider {
+    width: 50rem;
+    margin: auto;
+    margin-top: -12rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

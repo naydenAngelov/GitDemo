@@ -1,0 +1,77 @@
+footer {
+  min-height: 100vh;
+  background: url(/backgroundImages/footer-image.jpg);
+}
+.gold-line {
+  background: url(/backgroundImages/line-footer-gold.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header3 {
+  color: $primary-color;
+  font-family: Gwent;
+  font-size: 3rem;
+  text-align: center;
+  margin: 10rem;
+}
+.footer-icons {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15rem;
+}
+.box {
+  border: 0.3rem solid #f1bb46;
+  padding: 2rem;
+  transform: rotate(45deg);
+}
+.smaller-box {
+  border: 1.5rem solid #a58030af;
+  margin: -2rem;
+}
+.box a img {
+  transform: rotate(-45deg);
+}
+.youtube-logo {
+  margin: 1.5rem;
+}
+.footer-icons a img {
+  height: 6rem;
+}
+.devider {
+  background: url(/backgroundImages/divider-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150rem;
+  margin-top: -8rem;
+  padding: 3rem;
+}
+#copy-write-text {
+  padding: 2rem;
+  text-align: center;
+  color: $primary-color;
+  font-size: 1.8rem;
+}
+.cd-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5rem;
+}
+.gog {
+  width: 10rem;
+}
+.cd-red {
+  width: 25rem;
+  margin-top: -3rem;
+  padding-right: 3rem;
+}
+.copy-write-text1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: $primary-color;
+  padding: 0rem;
+}

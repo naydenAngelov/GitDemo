@@ -1,0 +1,95 @@
+.download-gwent {
+  background: url(/backgroundImages/bg-footer-1920.jpg);
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.download-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem;
+}
+
+.download-play-on-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.download-play-on-wrapper p {
+  color: $primary-color;
+  font-family: Ahmed;
+}
+
+.google-play-logo {
+  width: 15rem;
+  height: 6rem;
+}
+.steam-logo {
+  padding-left: 1rem;
+}
+.gwent-logo {
+  padding: 3rem;
+}
+.download-text p {
+  font-size: 3.5rem;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.77);
+  font-family: Gwent;
+  text-align: center;
+  color: $primary-color;
+}
+.download-text1 p {
+  font-size: 6rem;
+  font-family: Gwent;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.77);
+  color: $primary-color;
+  line-height: 10rem;
+}
+.golden-button {
+  border: 0.2rem solid $primary-color;
+  padding: 0.5rem;
+}
+
+.golden-button-inside {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
+  height: 10rem;
+  padding: rem;
+  overflow: visible;
+  background: $primary-color;
+  justify-content: center;
+  border-radius: 1rem;
+  a:focus {
+    color: white;
+  }
+}
+
+.button {
+  padding: 2.5rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  -webkit-text-stroke: 0.125rem;
+  -webkit-text-fill-color: $primary-color;
+  font-family: Ahmed;
+}
+.button:hover {
+  background: #ebbb5493;
+  width: 100%;
+  border-radius: 1rem;
+  transition: 0.5s ease;
+}
+.download-p {
+  font-family: Ahmed;
+  color: $primary-color;
+  padding: 5rem;
+}
